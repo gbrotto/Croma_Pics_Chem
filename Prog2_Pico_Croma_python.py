@@ -34,4 +34,5 @@ f = height*gauss_sk(t, t_max, width, tail)+erro
 plt.plot(t, f, 'b-')
 
 plt.xlabel('Time, min')
-plt.ylabel('Absorbance, mAu')    
+plt.ylabel('Absorbance, mAu')
+plt.show()
